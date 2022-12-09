@@ -7,7 +7,7 @@ btnConvert.addEventListener("click", () => {
 	spinner.style.display = "inline-block";
 	const youtubeUrl = document.getElementById("youtubeUrl").value;
 
-	fetch("https://youtube-mp3-converter-api.herokuapp.com", {
+	fetch("https://yt-2-mp3.cyclic.app/", {
 		method: "POST",
 		headers: {
 			"Content-type": "application/json",
